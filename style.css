@@ -1,0 +1,129 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #e0f7fa;
+    margin: 0;
+    padding: 20px;
+}
+
+h1,
+h2 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.progress-container {
+    width: 100%;
+    background: #e0e0e0;
+    border-radius: 12px;
+    margin: 15px 0;
+        
+
+}
+
+.progress-bar {
+    height: 20px;
+    background: #0288d1;
+    width: 0%;
+    border-radius: 12px;
+    transition: width 0.3s;
+    /* border: 1px solid red; */
+}
+
+.daily-quote {
+    text-align: center;
+    font-style: italic;
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #fff;
+}
+
+th,
+td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background: #ece8e8;
+    color: #131212;
+}
+
+.clear-btn {
+
+    margin: 10px auto 20px auto;
+    padding: 10px 20px;
+    background: #6aaad8;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.clear-btn:hover {
+    background: #558cb4;
+}
+
+.card2 {
+    display: flex;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    background: #1f72c6b8;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    margin-bottom: 30px;
+  h2 a{
+    color: #fff;
+    text-decoration: none;
+  }
+}
+.navbara{
+    display: flex;
+    gap: 20px;
+    a{
+        color: #fff;
+        text-decoration: none;
+        font-size: 18px;
+
+    }
+}
+.table-wrapper {
+  max-height: 70vh;  
+        /* ekranning 70% */
+  overflow-y: auto;
+  border-radius: 10px;
+}
+
+/* Sticky header */
+#tracker thead th {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+/* Total ustuni ham yopishib tursin desangiz */
+#tracker thead th:last-child {
+  right: 0;
+}

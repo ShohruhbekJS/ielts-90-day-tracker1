@@ -127,3 +127,88 @@ th {
 #tracker thead th:last-child {
   right: 0;
 }
+/* =======================
+   📱 MOBILE RESPONSIVE
+   ======================= */
+@media (max-width: 768px) {
+
+  body {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .navbara {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .card {
+    padding: 15px;
+  }
+
+  .card2 {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .progress-container {
+    margin: 10px 0;
+  }
+
+  .progress-bar {
+    height: 16px;
+  }
+
+  table {
+    font-size: 14px;
+  }
+
+  th,
+  td {
+    padding: 6px;
+  }
+
+  .clear-btn {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .daily-quote {
+    font-size: 1em;
+  }
+
+  .table-wrapper {
+    max-height: 60vh;
+  }
+}
+
+/* 📱 Juda kichik ekranlar (telefon) */
+@media (max-width: 480px) {
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  table {
+    font-size: 13px;
+  }
+}
+
